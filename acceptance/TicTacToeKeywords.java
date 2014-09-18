@@ -1,8 +1,9 @@
 import tictactoe.*;
+package tictactoe;
 
 public class TicTacToeKeywords {
 	TicTacToe t=new TicTacToe();
-	
+	private TicTacToe t;
 	public void startNewGame(){
 		t.startNewGame();
 	}
